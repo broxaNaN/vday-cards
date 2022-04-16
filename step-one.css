@@ -1,0 +1,160 @@
+body {
+    background-color: #BAE1EE;
+    padding: 1vh;
+}
+
+.container {
+    /* background-color: red; */
+    display: block;
+    height: 95vh;
+}
+
+.strip {
+    height: 29%;
+    background-color: #F4F667; 
+    opacity: 62%;
+}
+
+.strip1 {
+    height: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strip2 {
+    height: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strip3 {
+    height: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-strip {
+    height: 42%;
+    background-color: #F4F667;
+    opacity: 82%;
+    display: -webkit-box;
+}
+
+.third {
+    padding-left: 1%;
+    height: 33.33%;
+    display: flex;
+    align-items: center;
+}
+
+.third-input {
+    padding-left: 1%;
+    height: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box {
+    width: 80%;
+    height: 40%;
+    border-radius: 70px;
+    border: none;
+    background-color: #9BBECA;
+    opacity: 80%;
+    padding: 3%;
+}
+
+.button {
+    width: 85%;
+    height: 68%;
+    border-radius: 70px;
+    border: none;
+    background-color: #9BBECA; 
+    opacity: 80%;
+    padding: 3%;
+}
+
+.no-outline:focus {
+    outline: none;
+  }
+
+.button:hover {
+    background-color: #769daa;
+}
+
+.options {
+    width: 70%;
+    height: 100%;
+    display: block;
+    /* background-color: magenta; */
+}
+
+.buttons-container {
+    width: 30%;
+    height: 100%;
+    /* background-color: darkcyan; */
+}
+
+.instructions {
+    color: #3EB2CC;
+    font-size: 250%;
+}
+
+.error-message {
+    height: 20%;
+    /* background-color: red; */
+}
+
+.menu {
+    height: 80%;
+    /* background-color: turquoise; */
+    display: -webkit-box;
+}
+
+.arrows {
+    width: 45%;
+    /* background-color: darkslateblue; */
+    display: flex;
+    align-items: center;
+    font-size: 500%; 
+    color: #9BBECA;
+}
+
+.heart-container {
+    width: 10%;  
+    /* background-color: darkslategrey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.font {
+    font-family: 'Supermercado One';
+}
+
+.error-message {
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    color: #9BBECA;
+    font-family: 'Supermercado One';
+}
+
+/* "heart" code from https://stackoverflow.com/questions/17386168/how-to-create-a-heart-shape-using-css */
+.heart {
+    display:inline-block;
+    height: 90%; 
+    aspect-ratio: 1;
+    border-image: radial-gradient(#eeda25 69%,#0000 70%) 84.5% fill/100%; /* 84.5% */
+    opacity: 60%;
+    clip-path: polygon(-41% 0,50% 91%, 141% 0);
+    position: absolute;
+}
+.overlay {
+    clip-path: polygon(50% 9%, 91.4% 49.45%, 50% 91%, 8.6% 49.45%);
+}
+

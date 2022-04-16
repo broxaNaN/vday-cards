@@ -1,0 +1,197 @@
+body {
+  background-color: lightpink;
+  padding: 1vh;
+}
+
+.container {
+  background-color: transparent;
+  display: block;
+  height: 95vh;
+}
+
+.title-container {
+  background: rgba(29, 201, 29, .5);
+  height: 58%;
+  width: 100%;
+  position: relative;
+  z-index: 6;
+}
+
+.heart-container { 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  z-index: 7;
+}
+
+.space {
+  height: 3%;
+  width: 100%;
+}
+
+.text-container {
+  background-color:rgba(29, 201, 29, .5);
+  height: 39%;
+  width: 100%;
+  z-index: 7;
+  display: block;
+}
+
+.half1 {
+  width: 50%; 
+  height: 100%;  
+  position: relative;
+}
+
+.half2 {
+  width: 50%; 
+  height: 100%;  
+  position: relative;
+  z-index: 8;
+}
+
+.halfx-1 {
+  height: 33.33%;
+  width: 100%;
+  position: relative;
+  z-index: 8;
+  display: -webkit-box;
+}
+
+.halfx-2 {
+  height: 33.33%;
+  width: 100%;
+  position: relative;
+  z-index: 8;
+  display: -webkit-box;
+}
+
+.halfx-1-1 {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.halfx-1-2 {
+  width: 25%;
+  height: 100%;
+  position: relative;
+}
+
+.title1 {
+  height: 33.33%;
+  padding-left: 0.6%; 
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 9;
+}
+
+.title-text-light {
+  color: #DB6A99;
+  font-size: 760%;
+}
+
+.title-text-dark {
+  font-style: italic;
+  color: #BB3F73;
+  font-size: 760%;
+}
+
+.title2 {
+  height: 33.33%;
+  padding-left: 0.6%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 9;
+}
+
+.title3 {
+  height: 33.33%;
+  padding-left: 0.6%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 9;
+}
+
+.text1 {
+  height: 50%;
+  padding-left: 0.6%; 
+  z-index: 9;
+}
+
+.text2 {
+  height: 50%;
+  display: flex;
+}
+
+.button-container {
+  width: 35%;
+  height: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 70%; 
+  height: 80%; 
+  font-size: 250%; 
+  background-color: #d6aeae; 
+  color: #BB3F73;
+  border-radius: 40px;
+  border: 1px solid #ad8a8a;
+}
+
+.middle-heart {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #e6c3c9;
+}
+
+.font {
+  font-family: 'Supermercado One';
+}
+
+.normal {
+  font-size: 320%;
+  color: #B1657E;
+}
+
+.title {
+    font-size: 760%;
+}
+
+/* "heart" code from https://stackoverflow.com/questions/17386168/how-to-create-a-heart-shape-using-css */
+.heart {
+  display:inline-block;
+  height: 90%; 
+  aspect-ratio: 1;
+  border-image: radial-gradient(#FFC9D1 69%,#0000 70%) 84.5% fill/100%; /* 84.5% */
+  opacity: 40%;
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+  position: absolute;
+}
+
+.overlay {
+  clip-path: polygon(50% 9%, 91.4% 49.45%, 50% 91%, 8.6% 49.45%);
+}
+
+.line {
+  height: 1%;
+  width: 800%;
+  background-color: #FFC9D1;
+  transform: translateY(-750%);
+}
